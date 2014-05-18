@@ -10,6 +10,7 @@ hi def cppLessImportantChars guifg=#889988
 " Setting the conceal character for lambdas
 syn match cpp11LambdaHead "\[[a-zA-Z0-9&=\s,]*\]\s*(.*)\(\s*{\)\@=" conceal cchar=λ
 syn match cpp11LambdaHead "\[[a-zA-Z0-9&=\s,]*\]\(\s*{\)\@=" conceal cchar=λ
+syn match cpp11LambdaHead "\[[a-zA-Z0-9&=\s,]*\]\s*(.*)\s*mutable\s*\(\s*{\)\@=" conceal cchar=λ
 
 " Auto keyword is not
 syn keyword cpp11Auto auto
