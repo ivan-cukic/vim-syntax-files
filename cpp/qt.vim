@@ -24,8 +24,8 @@ syn region syntax_qtDebug start="qDebug" end=";"
 syn region syntax_qtDebug start="qCDebug" end=";"
 hi def link syntax_qtDebug Comment
 
-syn match syntax_pimpl_access 'd->'
-syn match syntax_pimpl_access 'q->'
+syn match syntax_pimpl_access '\<d->'
+syn match syntax_pimpl_access '\<q->'
 hi syntax_pimpl_access guifg=#556655 ctermfg=darkgray gui=bold term=bold
 
 syn region syntax_qtWarning start="qWarning" end=";"
